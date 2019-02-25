@@ -1,0 +1,27 @@
+{
+  "parser": "babel-eslint",
+  "extends": "eslint-config-egg",
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "script",
+    "ecmaFeatures": {
+    }
+  },
+  "ecmaFeatures": {
+    "spread": true,
+    "experimentalObjectRestSpread": true
+  },
+  "rules": {
+    "strict": "off",
+    "valid-jsdoc": "off",
+    "no-trailing-spaces": "off",
+    "newline-per-chained-call": "off",
+    "spaced-comment": "off",
+    "object-curly-spacing": "off",
+    "eol-last": "off",
+    "comma-dangle": "off",
+    "linebreak-style": "off",
+    "space-before-function-paren": "off",
+    "array-bracket-spacing": "off"
+  }
+}
